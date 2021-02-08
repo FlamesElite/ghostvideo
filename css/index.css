@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+}
+
+:root {
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+body {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 1fr 4fr 1fr;
+  grid-template-rows: auto 1fr 1fr;
+}
+
+input.video_link {
+	color: rgb(0, 0, 220); 
+	font-weight: bold; 
+	font-size: 18px;
+	text-decoration: underline;
+	background-color: lightgrey; 
+	border: none;
+}
+
+a {
+	color: rgb(0, 0, 220);
+}
+
+aside.ads {
+  grid-column: 3/4;
+  background: linear-gradient(to right, lightgrey, white);
+  border-left: 1px solid grey;
+  grid-row: 2/4;
+}
+
+.header_index {
+  padding: 0.5rem;
+  text-align: center;
+  background: linear-gradient(#111, black);
+  color: white;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border: 2px solid #333;
+  border-bottom: none;
+}
+
+.header_display_videos {
+  padding: 0.5rem;
+  background: linear-gradient(#111, black);
+  color: white;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border: 2px solid #333;
+  border-bottom: none;
+}
+
+main {
+  padding: 1rem;
+}
+
+div.content {
+  padding: 1rem;
+  background: lightgrey;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.video-card {
+  display: inline-block;
+}
+
+input.thumbnail {
+  width: 200px;
+  height: 115px;
+}
+
+.subtext {
+	font-size: 12px;
+}

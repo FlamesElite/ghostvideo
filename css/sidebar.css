@@ -1,0 +1,44 @@
+a.username {
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+	font-weight: bold;
+}
+a.username_blk {
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+	font-weight: bold;
+}
+
+aside.sidebar {
+  grid-column: 1/2;
+  grid-row: 2/4;
+  background: linear-gradient(to left, lightgrey, white);
+  border-right: 1px solid grey;
+  padding: 1rem;
+}
+
+.sidebar_index {
+  padding: 0.5rem;
+  text-align: center;
+  background: linear-gradient(#111, black);
+  color: white;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border: 2px solid #333;
+  border-bottom: none;
+}
+
+.sidebar_footer {
+  padding: 0.5rem;
+  text-align: center;
+  background: linear-gradient(#111, black);
+  color: white;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border: 2px solid #333;
+  border-top: none;
+}
+
+aside .userinfo {
+  margin-bottom: 1rem;
+}
